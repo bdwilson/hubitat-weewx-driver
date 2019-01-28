@@ -1,0 +1,8 @@
+How to install The easy way
+==========================
+
+Get hold of the release archive from github:
+
+Use the Weewx extension installer:
+
+   wee_extension --install hubitat-weewx-driver.tar.gz
