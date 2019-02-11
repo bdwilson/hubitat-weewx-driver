@@ -10,7 +10,7 @@ def loader():
 class DataInstaller(ExtensionInstaller):
     def __init__(self):
         super(DataInstaller, self).__init__(
-            version="1.0.0",
+            version="1.0.1",
             name='hubitat-weewx-driver',
             description='A skin to feed data to the hubitat weewx driver app',
             author="Scott Grayban",
