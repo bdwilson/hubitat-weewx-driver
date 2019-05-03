@@ -2,7 +2,7 @@
 This installs the skin needed to generate the **_daily.json_** for [Cobra's Weewx Weather Driver With External Forecasting](https://community.hubitat.com/t/updated-weewx-weather-driver-with-external-forecasting/2226/143)
 
 1. Download the Hubitat weeWX driver skin file master.zip<br>
-   wget -O hubitat-weewx-driver.zip https://github.com/sgrayban/hubitat-weewx-driver/archive/master.zip
+   wget -O hubitat-weewx-driver.zip https://github.com/sgrayban/hubitat-weewx-driver/releases/download/v1.0/hubitat-weewx-driver.zip
 1. wee_extension --install hubitat-weewx-driver.zip
 1. Reload weeWX -- **service weewx reload**
 
