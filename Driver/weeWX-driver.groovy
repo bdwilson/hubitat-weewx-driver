@@ -32,10 +32,20 @@
  *  This driver is specifically designed to be used with 'Weewx' and your own PWS and
  *  requires you to install my Weewx Skin at https://github.com/sgrayban/hubitat-weewx-driver/
  *
+ *  Version:
+ *  1.0.0 - Initial commit
+ *
  */
 
 metadata {
-    definition (name: "Weewx Weather Driver", namespace: "sgrayban", author: "Scott Grayban") {
+    definition (
+	name: "Weewx Weather Driver",
+	namespace: "sgrayban",
+	author: "Scott Grayban",
+	importUrl: "https://raw.githubusercontent.com/sgrayban/hubitat-weewx-driver/master/Driver/weeWX-driver.groovy"
+	)
+
+	{
         capability "Actuator"
         capability "Sensor"
         capability "Temperature Measurement"
