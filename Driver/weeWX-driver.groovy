@@ -1407,4 +1407,3 @@ def LOGINFO(txt){
     	log.error("LOGINFO unable to output requested data!")
     }
 }
-
