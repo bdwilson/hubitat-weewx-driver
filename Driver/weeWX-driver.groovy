@@ -60,7 +60,7 @@ metadata {
         attribute "WeewxUptime", "string"
         attribute "WeewxLocation", "string"
         attribute "Refresh-Weewx", "string"
-		attribute "WeatherDisplay", "string"
+	attribute "WeatherDisplay", "string"
         
 // Units
         attribute "distanceUnit", "string"
