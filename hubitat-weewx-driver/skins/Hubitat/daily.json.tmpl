@@ -48,7 +48,27 @@
       "mintemptoday":"$day.outTemp.min",
       "maxinsidetemptoday":"$day.inTemp.max",
       "mininsidetemptoday":"$day.inTemp.min"
-}
+   },
+   "yesterday": {
+      "rainSum":"$yesterday.rain.sum",
+      "maxtemp":"$yesterday.outTemp.max",
+      "mintemp":"$yesterday.outTemp.min",
+      "avgtemp":"$yesterday.outTemp.avg"
+   },
+   "week": {
+      "rainSum":"$span($week_delta=1).rain.sum",
+      "maxtemp":"$week($weeks_ago=1).outTemp.max",
+      "mintemp":"$week($weeks_ago=1).outTemp.min",
+      "avgtemp":"$week($weeks_ago=1).outTemp.avg"
+   },
+   "rainstats": {
+      "rainSum2days":"$span($day_delta=2).rain.sum",
+      "rainSum3days":"$span($day_delta=3).rain.sum",
+      "rainSum4days":"$span($day_delta=4).rain.sum",
+      "rainSum5days":"$span($day_delta=5).rain.sum",
+      "rainSum6days":"$span($day_delta=6).rain.sum",
+      "rainSum7days":"$span($day_delta=7).rain.sum"
+   }
 },
 
   "almanac":{
